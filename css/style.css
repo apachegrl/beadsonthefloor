@@ -2,8 +2,9 @@
 
 * {
 box-sizing: border-box;
-margin: 0;
-padding: 0;
+margin: 10;
+padding: 0%;
+line-height: 1.9em;    
 }
 
 html {
@@ -14,7 +15,7 @@ nav {
     display: flex;
     justify-content: space-between;
     align-items: flex-end;
-    background: #0E7C7B;
+    background: gray;
     padding: 10px 20px;
     font-size: 20px;
    }
@@ -47,13 +48,43 @@ nav a:hover {
     display: flex;
     justify-content: center;
     align-items: center;
-    background: url("../images/seed bead jars.jpg");
+    background: url("../images/seedbeads.jpg");
+    text-decoration-color: snow;
     background-size: cover;
     background-position: top;
+    border-style: solid;   
 }
 
-.banner h1 { 
+/*.banner h1 { 
     background: rgba (255,255,255,0.5);
     padding: 20px
+}*/
+
+.padding-list {
+    padding-left: 50px;
+    line-height: 10em;
+}
+.about-image {
+    width: 15%;
+    display: block;
+    margin: 16px auto;
+    border: 3px solid black;
+}
+
+.row {
+    display: flex;
+    }
+
+.col {
+    width: 25%;
+ }
+
+.col img {
+    width: 100%;
+}
+footer {
+    height: 25px;
+    text-align: center;
+    background-color: darkgrey;
 }
 
